@@ -3,7 +3,7 @@ body {
     margin: 0;
 }
 
-section {
+.felexbile_container {
     display: flex;
     padding: 2%;
 
@@ -34,4 +34,25 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.area_experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experience{
+    margin: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+}
+#full_stack{
+   border-left:7px solid orange;
+}
+#baby{
+    border-left: 7px solid tomato;
+}
+footer{
+    text-align: center;
 }
