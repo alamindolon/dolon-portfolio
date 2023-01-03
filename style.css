@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    padding: 2%;
+
+}
+
+.half_width {
+    width: 50%;
+}
+
+.image_control {
+    width: 80%;
+}
+
+.about_button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+.top_banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-banar{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
